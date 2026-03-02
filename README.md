@@ -16,4 +16,10 @@
 
 - Luego, creé una sub-rama dentro de develop: git checkout -b feature/suma-numeros
 
+- Después de editar el archivo python, realicé un commit
+
+- Finalicé el archivo python y realicé otro commit
+
+- Cambié a la rama develop (git checkout develop), para unir las dos ramas (git merge feature/suma-numeros)
+
 - 
