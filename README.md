@@ -28,6 +28,38 @@
 
 - Por último, creé una hotfix, primero haciendo un error en el archivo python y después escribiendo esto en Git bash: git checkout master, git checkout -b hotfix/error-suma
 
+#
+
+![alt text](<python hotfix error-1.png>)
+
+#
+
 - Corregí el error que había cometido en el código python.
 
-- 
+#
+
+![alt text](<python hotfix corregido-1.png>)
+
+#
+
+- Después añadí un nuevo commit: git add ., git commit -m "fix: corregir error de sintaxis en suma"
+
+- Y finalmente, uní la rama "hotfix/error-suma", con master: git checkout master, git merge hotfix/error-suma.
+
+## Trabajo realizado en Terminal completo
+
+#
+
+![alt text](gitbash1-1.JPG)
+
+#
+
+![alt text](gitbash2-1.JPG)
+
+#
+
+![alt text](gitbash3-1.JPG)
+
+#
+
+![alt text](gitbash4-1.JPG)
