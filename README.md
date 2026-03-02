@@ -22,4 +22,12 @@
 
 - Cambié a la rama develop (git checkout develop), para unir las dos ramas (git merge feature/suma-numeros)
 
+- Creé una Release, con la versión 1.0.0 que ya está lista: git add ., git commit -m "chore: preparar lanzamiento v1.0.0"
+
+- Las release se mezclan tanto en main/master como en develop: git checkout master, git merge release/v1.0.0 y lo mismo con develop
+
+- Por último, creé una hotfix, primero haciendo un error en el archivo python y después escribiendo esto en Git bash: git checkout master, git checkout -b hotfix/error-suma
+
+- Corregí el error que había cometido en el código python.
+
 - 
