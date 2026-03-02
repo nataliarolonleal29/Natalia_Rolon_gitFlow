@@ -10,6 +10,10 @@
 
 - Inicié el git con el comando: git init
 
-- Inicié el Git Flow y presioné la tecla enter, para aceptar todas las ramas principales predeterminadas.
+- Inicié el primer commit, usando: git add . y git commit -m "chore: inicializar actividad"
+
+- Después, creé una rama llamada develop: git checkout -b develop
+
+- Luego, creé una sub-rama dentro de develop: git checkout -b feature/suma-numeros
 
 - 
